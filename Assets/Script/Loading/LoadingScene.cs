@@ -25,7 +25,7 @@ public class LoadingScene : MonoBehaviour
 
     private void Awake()
     {
-        
+
     }
 
     /*
@@ -57,7 +57,7 @@ public class LoadingScene : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if(slider.value < 100)
+        if (slider.value < 100)
         {
             slider.value += Time.deltaTime * speed;
             ProgressIndicator.text = slider.value.ToString("F0");
