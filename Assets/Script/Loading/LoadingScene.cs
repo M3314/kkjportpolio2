@@ -14,6 +14,7 @@ public class LoadingScene : MonoBehaviour
     public Text LoadingText;
     public Text Percentage1;
     public Text Percentage2;
+    public Text DataCheck;
 
     private float time;
 
@@ -68,6 +69,7 @@ public class LoadingScene : MonoBehaviour
             Destroy(slider.gameObject);
             Destroy(Percentage1.gameObject);
             Destroy(Percentage2.gameObject);
+            Destroy(DataCheck.gameObject);
             GameObject.Find("Canvas").transform.Find("StartButton").gameObject.SetActive(true);
             GameObject.Find("Canvas").transform.Find("Title").gameObject.SetActive(true);
         }

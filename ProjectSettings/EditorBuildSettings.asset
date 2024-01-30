@@ -12,6 +12,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Loading.unity
     guid: 1526782b0e26d004fb9b484406e5e96c
   - enabled: 1
+    path: Assets/Scenes/attendance.unity
+    guid: c8c1c1a78eb5498479574eb45cef532f
+  - enabled: 1
     path: Assets/Scenes/Lobi.unity
     guid: f0a89cfa9521ca345a2a911e547026cc
   m_configObjects: {}
